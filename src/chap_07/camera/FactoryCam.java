@@ -1,5 +1,6 @@
 package chap_07.camera;
 
+// FacgtoryCam is a Camera (IS-A) -> 상속 관계는 IS-A 관계다.
 public class FactoryCam extends Camera { // 자식 클래스, 부모는 딱 하나의 클래스로만 정의할 수 있습니다.
     public FactoryCam() {
         this.name = "공장 카메라";
